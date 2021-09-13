@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+  scroll-behavior: smooth;
+}
+
+.app{
+  min-height: 100vh;
+  background-color: rgb(38, 35, 66);
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+
+@media (max-width:800px){
+  .app{
+    padding-top: 90px;
+  }
+}
+.pageTitle{
+  font-size: 2vw;
+  text-transform: uppercase;
+  display: flex;
+  padding: 4px;
+  border-radius: 50px;
+
+}
+@media (max-width:1000px){
+  .pageTitle{
+    font-size: 5.5vw;
+  }
+}
