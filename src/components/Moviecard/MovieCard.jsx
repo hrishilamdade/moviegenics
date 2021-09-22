@@ -1,7 +1,6 @@
 import { Badge } from "@material-ui/core"
 import { Link } from "react-router-dom"
 import { img_300, unavailable } from "../../config/config"
-import ContentModal from "../ContentModal/ContentModal"
 import './MovieCard.css'
 const MovieCard = ({id,poster,title,date,media_type,vote_average}) => {
     return (
