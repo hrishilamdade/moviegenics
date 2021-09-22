@@ -31,7 +31,8 @@ function Shows() {
                             title={c.title || c.name} 
                             date={c.first_air_date || c.release_date}
                             media_type="tv"
-                            vote_average={c.vote_average}    
+                            vote_average={c.vote_average}
+                            content={content}    
                         />
                     )
                 }

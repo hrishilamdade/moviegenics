@@ -1,0 +1,36 @@
+.review-section{
+    margin: 30px 5px ;
+}
+
+.input{
+    margin: 30px;
+}
+
+.review-input{
+    width: 60%;
+    text-align: center;
+}
+.user-reviews{
+    margin:  20px ;
+    background-color: rgb(28, 27, 87);
+    padding: 20px;
+}
+
+.review{
+    margin: 5px 0px;
+    background-color: rgb(73, 67, 150);
+    /* min-width: 40%; */
+    border-radius: 5px;
+    /* width: max-content; */
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.username{
+    font-size: 15px;
+    margin-top: -10px;
+    color:rgb(255, 163, 163);
+    position: relative;
+    padding: 3px 7px;
+}
+.review-text{
+    padding: 6px 20px;
+}

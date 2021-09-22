@@ -7,6 +7,7 @@ import Trending from './Pages/Trending/Trending';
 import Search from './Pages/Search/Search';
 import Movies from './Pages/Movies/Movies';
 import Shows from './Pages/Shows/Shows';
+import Display from './components/Display/Display';
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
         <Container>
           <Switch>
             <Route exact path="/" component={Trending}/>
+            <Route exact path="/item/:id" component={Display} />
             <Route path="/search" component={Search}/>
             <Route path="/movies" component={Movies}/>
             <Route path="/shows" component={Shows}/>
