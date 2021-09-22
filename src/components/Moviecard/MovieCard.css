@@ -12,9 +12,9 @@
     transition: 0.1s;
 }
 @media (max-width:550px){
-    .media{
-        width: 46%;
-    }
+    /* .media{
+        width: 45%;
+    } */
 }
 .media:hover{
     box-shadow: 0px 0px 10px -1px rgb(0, 0, 0);
